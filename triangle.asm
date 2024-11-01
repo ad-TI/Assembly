@@ -35,7 +35,7 @@ STR R0, R6, #0 ; push triangle's arg
 
 ADD R6, R6, #-1 ; push triangle's rv
 
-JSR FIB
+JSR TRIANGLE
 
 LDR R0, R6, #0
 STR R0, R5, #2 ; return value = triangle(input)
